@@ -1,7 +1,7 @@
 {
-  "name": "xugou",
+  "name": "qianxiu",
   "version": "1.0.0",
-  "description": "Xugou monitoring system",
+  "description": "Qianxiu monitoring",
   "private": true,
   "scripts": {
     "dev:frontend": "cd frontend && pnpm run dev",
