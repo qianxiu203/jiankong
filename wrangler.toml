@@ -1,4 +1,4 @@
-name = "xugou-app"
+name = "jiiankong"
 main = "backend/src/index.ts"
 compatibility_date = "2025-03-10"
 compatibility_flags = ["nodejs_compat"]
@@ -7,8 +7,7 @@ minify = true # 生产环境压缩代码
 
 # 设置自定义域名
 routes = [
-  { pattern = "xugou.mdzz.uk", custom_domain = true },
-  { pattern = "api.xugou.mdzz.uk", custom_domain = true }
+  { pattern = "jk.0407123.xyz", custom_domain = true }
 ]
 
 # 添加定时触发器，每分钟执行一次监控检查
@@ -17,8 +16,8 @@ crons = ["* * * * *"]
 
 [[d1_databases]]
 binding = "DB"
-database_name = "xugou_db"
-database_id = "32a2ca5f-3a77-4b08-965e-804612557880"
+database_name = "jiankong"
+database_id = "d0162b47-e82d-4816-9abf-51c3fc669281"
 
 [assets]
 binding = "ASSETS"
